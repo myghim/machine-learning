@@ -122,7 +122,7 @@ plt.plot(model_history.history['val_loss'])
 plt.title('modelloss')
 plt.ylabel('loss')
 plt.xlabel('epoch')
-plt.legend(['train','test'],loc='right')
+plt.legend(['train','mlp'],loc='right')
 plt.show()
 
 # Plot Accuracy Curve
@@ -131,7 +131,7 @@ plt.plot(model_history.history['val_accuracy'])
 plt.title('model accuracy')
 plt.ylabel('accuracy')
 plt.xlabel('epoch')
-plt.legend(['train', 'test'], loc='right')
+plt.legend(['train', 'mlp'], loc='right')
 plt.show()
 
 from sklearn.metrics import confusion_matrix
